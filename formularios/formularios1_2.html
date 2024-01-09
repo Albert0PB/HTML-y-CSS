@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="autor" content="Alberto Pérez Bernabeu">
+        <title>Formularios 1 y 2</title>
+        <link rel="stylesheet" href="\formularios\formularios.css">
+    </head>
+    <body>
+        <header>
+            <h1>Formularios 1 y 2</h1>
+        </header>
+        <section>
+            <form name="ejercicios1_2" method="get" action="">
+                <p>
+                    <label for="nombre">Nombre: </label>
+                        <input type="text" maxlength=50 id="nombre">
+                        <br>
+                    <label for="apellidos">Apellidos: </label>
+                        <input type="text" maxlenght="50" id="apellidos">
+                </p>
+                <p>
+                    <label for="sexo">Sexo: </label><br>
+                    <label for="sexo">Hombre</label>
+                    <input type="radio" name="sexo" id="0">
+                    <label for="sexo">Mujer</label>
+                    <input type="radio" name="sexo" id="1"> 
+                </p>
+                <p>
+                    <label for="correo_electronico">Correo: </label>
+                        <input type="text" id="correo_electronico">
+                </p>
+                <p>
+                    <label for="info">Deseo recibir información sobre novedades y ofertas</label>
+                        <input type="checkbox" checked="" id="info">
+                        <br>
+                    <label for="condiciones">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+                    <input type="checkbox" id="condiciones">
+                </p>
+                <p>
+                    <label for="provincia">Provicia:</label>
+                    <select multiple>
+                        <option value="alicante">Alicante</option>
+                        <option value="madrid">Madrid</option>
+                        <option value="sevilla">Sevilla</option>
+                        <option value="valencia">Valencia</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="descripcion">Descripción:</label>
+                    <textarea name="descripcion" id="" cols="30" rows="10"></textarea>
+                </p>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+        <nav>
+            <h2>Ejercicios HTML</h2>
+            <ol>
+                <li>Formularios</li>
+                <ol>
+                    <li><a href="\formularios\formularios1_2.html">Ejercicios 1 y 2</a></li>
+                    <li><a href="\formularios\formulario_html5.html">Ejercicio HTML5</a></li>
+                    <li><a href="\formularios\formulario9_1.html">Ejercicio 9.1</a></li>
+                </ol>
+                <li>Listas</li>
+                <ol>
+                    <li><a href="\listas\lista_sin_orden.html">Lista desordenada</a></li>
+                    <li><a href="\listas\lista_ordenada.html">Lista ordenada</a></li>
+                    <li><a href="\listas\listas_anidadas.html">Lista anidada</a></li>
+                    <li><a href="\listas\lista_descripciones.html">Lista de descripciones</a></li>
+                </ol>
+                <li><a href="\tablas\tablas.html">Ejercicio de tablas</a></li>
+            </ol>
+                
+            <h2>Ejercicios CSS</h2>
+            <ol>
+                <li><a href="\ejercicios_css\css_diner\css_diner.html">CSS Diner</a></li>
+                <li><a href="\ejercicios_css\grid_garden\grid_garden.html">Grid Garden</a></li>
+                <li><a href="\ejercicios_css\flexbox_froggy\flexbox_froggy.html">Flexbox Froggy</a></li>
+                <li>Ejercicios de selectores</li>
+                <ul>
+                    <li><a href="\ejercicios_css\selectores\ejercicio1.html">Ejercicio 1</a></li>
+                    <li><a href="\ejercicios_css\selectores\ejercicio2.html">Ejercicio 2</a></li>
+                    <li><a href="\ejercicios_css\selectores\ejercicio3.html">Ejercicio 3</a></li>
+                </ul>
+                <li>Modelo de caja</li>
+                <ul>
+                    <li><a href="\ejercicios_css\modelo_caja\modelo1.html">Ejercicio 1</a></li>
+                    <li><a href="\ejercicios_css\modelo_caja\modelo2.html">Ejercicio 2</a></li>
+                </ul>
+            </ol>
+        </nav>
+        <footer></footer>
+    </body>
+</html>

@@ -1,0 +1,74 @@
+/* Alberto Pérez Bernabeu */
+
+section{
+    grid-area: section;
+    padding-left: 15px;
+    margin-right: 20px;
+}
+
+nav{
+    grid-area: nav;
+    font-size: small;
+    padding-right: 15px;
+    margin-left: 20px;
+    padding-left: 10px;
+    border-left: solid thin;
+}
+
+caption{
+    grid-area: caption;
+    font-size: large;
+}
+
+footer{
+    grid-area: footer;
+    border-top: solid thin;
+}
+
+body{
+    display: grid;
+    grid-template-areas: 
+    "section section section nav"
+    "section section section nav"
+    "section section section nav"
+    "footer footer footer footer";
+}
+
+table{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border: inset;
+    border-color: crimson;
+}
+
+th{
+    width: 10%;
+}
+
+td{
+    border:solid blue;
+}
+
+.fol{
+    background-color:khaki;
+}
+
+.ent{
+    background-color:magenta;
+}
+
+.bbdd{
+    background-color: blueviolet;
+}
+
+.sistinf{
+    background-color: red;
+}
+
+.llmm{
+    background-color: aquamarine;
+}
+
+.prog{
+    background-color: yellowgreen;
+}
