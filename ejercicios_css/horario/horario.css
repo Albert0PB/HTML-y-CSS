@@ -1,0 +1,59 @@
+/* Alberto Pérez Bernabeu */
+
+ section{
+    display: grid;
+    display: flex;
+    grid-template-columns: 16.67% 16.67% 16.67% 16.67% 16.67% 16.67%;
+    grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    grid-template-areas:
+    "hora 1ra 1ra 1ra 1ra 1ra"
+    "hora 2da 2da 2da 2da 2da"
+    "hora 3ra 3ra 3ra 3ra 3ra"
+    "hora rec rec rec rec rec"
+    "hora 4ta 4ta 4ta 4ta 4ta"
+    "hora 5ta 5ta 5ta 5ta 5ta"
+    "hora 6ta 6ta 6ta 6ta 6ta"
+    ;
+}
+
+h2{
+    text-align: center;
+}
+
+.rec{
+    grid-area: "rec";
+}
+
+.hora{
+    grid-area: "hora";
+}
+
+.fol{
+    grid-area: "fol";
+    background-color:khaki;
+}
+
+.ent{
+    grid-area: "ent";
+    background-color:magenta;
+}
+
+.bbdd{
+    grid-area: "bbdd";
+    background-color: blueviolet;
+}
+
+.sistinf{
+    grid-area: "sistint";
+    background-color: red;
+}
+
+.llmm{
+    grid-area: "llmm";
+    background-color: aquamarine;
+}
+
+.prog{
+    grid-area: "prog";
+    background-color: yellowgreen;
+}
